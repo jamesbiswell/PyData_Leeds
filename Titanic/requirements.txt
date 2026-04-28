@@ -1,0 +1,11 @@
+kagglehub
+matplotlib
+numpy
+pandas
+pkg
+scikit-learn
+seaborn
+setuptools
+# <82.0.0
+shap
+xgboost

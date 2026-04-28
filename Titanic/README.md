@@ -1,0 +1,3 @@
+- Event - https://www.meetup.com/pydata-leeds/events/313372106
+- ML Introduction - http://bit.ly/4rhc0x2
+- Colab Notebook - https://bit.ly/4qOAOga
