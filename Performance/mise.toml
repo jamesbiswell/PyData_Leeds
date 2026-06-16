@@ -1,0 +1,16 @@
+[tools]
+python = "3.14"
+uv = "latest"
+
+[tasks.setup]
+description = "Set up the project by running migrations and generating data"
+run = [
+    "uv run alembic upgrade head",
+    "uv run generate_data.py --all"
+]
+
+[tasks.web]
+description = "Run the litestar web server"
+run = [
+    "uv run python web/app.py"
+]
